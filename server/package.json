@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon --watch 'src/**/*.ts' --exec 'node --no-warnings --loader ts-node/esm' src/app.ts"
+    "dev": "nodemon --watch 'src/**/*.ts' --exec 'node --no-warnings --loader ts-node/esm' src/app.ts",
+      "start": "node --no-warnings --loader ts-node/esm src/app.ts"
   },
   "keywords": [],
   "author": "",
