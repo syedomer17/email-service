@@ -29,3 +29,4 @@ export async function sendEmail(options: EmailOptions) {
   const info = await transporter.sendMail(mailOptions);
   return { messageId: info.messageId, accepted: info.accepted };
 }
+
